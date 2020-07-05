@@ -306,24 +306,56 @@ background-color: var(--akcent);
 .flex-element-partfolio {
   height: 404px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
+  
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
   
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-top: 30px;
+  
 }
 
 .flex-element-partfolio:hover,
 .flex-element-partfolio:focus {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
+    
   }
 
 .flex-element-partfolio:nth-child(3n) {
   margin-right: 0;
+  
 }
 
+.project-hover-focus:hover .project-text
+{
+opacity: 1;
+
+}
+.project-img {
+  display: flex;
+  display: block;
+  position: relative;
+}
+.project-text {
+ font-size: 18px;
+ line-height: 28px;
+ letter-spacing: 0.03em;
+ position: absolute;
+ color: var(--white-text-color);
+ background: rgba(33, 150, 243, 0.9);
+ opacity: 0;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: 370px;
+ height: 294px;
+ padding-top: 63px;
+ padding-left: 24px;
+ padding-right: 24px;
+ padding-bottom: 63px;
+}
 .flex-container {
   display: flex;
   justify-content: space-between;
