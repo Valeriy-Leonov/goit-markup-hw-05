@@ -121,8 +121,8 @@ ul {
 }
 
 .button-icon-envelope {
-  height: 11.2px;
   fill: var(--secondary-text-color);
+  color: var(--secondary-text-color);
   transition-property: all;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -130,11 +130,12 @@ ul {
 .button-icon-envelope:hover,
 .button-icon-envelope:focus {
   fill: var(--akcent);
+  color: var(--akcent);
 }
 
 .button-icon-smartphone {
-  height: 14.94px;
   fill: var(--secondary-text-color);
+  color: var(--secondary-text-color);
   transition-property: all;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -142,6 +143,7 @@ ul {
 .button-icon-smartphone:hover,
 .button-icon-smartphone:focus {
   fill: var(--akcent);
+  color: var(--akcent);
 }
 
 .button-svg {
@@ -228,11 +230,6 @@ ul {
   padding: initial;
   margin-top: 32px;
   margin-bottom: 32px;
-}
-
-.site-nav-contact :hover,
-.site-nav-contact :focus {
-  color: var(--akcent);
 }
 
 /* hero */
